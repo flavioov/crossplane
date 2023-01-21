@@ -8,6 +8,6 @@ spec:
   compositionSelector:
     matchLabels:
       provider: aws
-      vpc: default
+      vpc: new
   writeConnectionSecretToRef:
     name: db-conn
