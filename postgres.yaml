@@ -2,7 +2,6 @@ apiVersion: database.example.org/v1alpha1
 kind: PostgreSQLInstance
 metadata:
   name: my-db
-  namespace: default
 spec:
   parameters:
     storageGB: 20
